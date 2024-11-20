@@ -1,0 +1,10 @@
+[package]
+name = "flowvisualizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.26.2", features = ["default"] }
+egui = "0.26.2"
+egui_plot = "0.26.2"
+nalgebra = "0.32.3"
